@@ -1,15 +1,12 @@
 {
   "name": "@aexhell/osu-js",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A library for interacting with the osu api.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "url": "git+https://github.com/aexhell/osu-js.git",
-    "type": "git"
-  },
+  "repository": "git+https://github.com/aexhell/osu-js.git",
   "keywords": [
     "osu",
     "osu-api",
