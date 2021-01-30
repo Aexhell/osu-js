@@ -37,6 +37,8 @@ class Api {
             return this.notFound(resp);
         }
 
+        options.b = Number(options.b);
+
         return new Beatmap(this.config, resp[0]);
     }
 }

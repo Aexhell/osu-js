@@ -11,14 +11,14 @@
 **/
 
 class Beatmap {
-	constructor(config, data) {
-        this.approved = data.approved;
-        this.submit_date = data.submit_date;
-        this.approved_date = data.approved_date;
-        this.last_update = data.last_update;
-        this.mode = data.mode;
-        this.artist = data.artist;
-	}
+        constructor(config, data) {
+                this.approved = data.approved;
+                this.submit_date = data.submit_date;
+                this.approved_date = data.approved_date;
+                this.last_update = data.last_update;
+                this.mode = data.mode;
+                this.artist = data.artist;
+        }
 }
 
 module.exports = Beatmap;
