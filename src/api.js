@@ -1,6 +1,7 @@
 'use strict';
 
 const request = require('superagent');
+const { Beatmap } = require('..');
 const User = require("./user");
 
 class Api {
@@ -22,10 +23,11 @@ class Api {
 	async getUser(options) {
         let resp = await this.apiReq('/get_user', options);
 
-		if (resp.length === 0)
-			return this.notFound(resp);
+		if (resp.length === 0) {
+            return this.notFound(resp);
+        }
 
-            return new User(this.config, resp[0]);
+        return new User(this.config, resp[0]);
     }
     
     async getBeatmap(options) {
@@ -35,7 +37,7 @@ class Api {
             return this.notFound(resp);
         }
 
-        return console.log(resp.body);
+        return new Beatmap(this.config, resp[0]);
     }
 }
 
