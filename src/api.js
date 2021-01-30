@@ -1,7 +1,7 @@
 'use strict';
 
 const request = require('superagent');
-const { Beatmap } = require('..');
+const Beatmap = require('./beatmap');
 const User = require("./user");
 
 class Api {
