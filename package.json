@@ -1,0 +1,19 @@
+{
+  "name": "@aexhell/osu-js",
+  "version": "1.0.1",
+  "description": "A library for interacting with the osu api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "osu",
+    "osu-api",
+    "api"
+  ],
+  "author": "aexhell",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "*"
+  }
+}
