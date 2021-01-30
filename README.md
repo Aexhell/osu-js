@@ -1,5 +1,9 @@
 I decided to make my own version of the osu api.
 
+# Install
+* NPM:
+`npm install @aexhell/osu-js`
+
 # Example
 ```js
 const Osu = require("@aexhell/osu-js");
