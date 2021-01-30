@@ -26,7 +26,17 @@ class Api {
 			return this.notFound(resp);
 
             return new User(this.config, resp[0]);
-	}
+    }
+    
+    async getBeatmap(options) {
+        let resp = await this.apiReq('/get_beatmaps', options);
+
+		if (resp.length === 0) {
+            return this.notFound(resp);
+        }
+
+        return console.log(resp.body);
+    }
 }
 
 module.exports = Api;

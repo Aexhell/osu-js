@@ -1,8 +1,9 @@
 I decided to make my own version of the osu api.
 
 # Install
-## NPM:
 `npm install @aexhell/osu-js`
+or
+`yarn install @aexhell/osu-js`
 
 # Example
 ```js
