@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "repository": {
-    "url": "git+https://github.com/@aexhell/osu-js.git",
+    "url": "git+https://github.com/aexhell/osu-js.git",
     "type": "git"
   },
   "keywords": [
